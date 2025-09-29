@@ -1,0 +1,37 @@
+// begin main.c
+// please work on this file
+// 이 파일을 수정하여 제출하시오
+
+#include <stdio.h>
+
+int main(void) {
+  // 정수 변수
+  const int a = 10;
+  const int b = 5;
+
+  // 실수 변수
+  const float c = 0.1f;
+  const float d = 0.2f;
+
+  // 정수 연산 결과 출력
+  printf("a = %d\n", a);
+  printf("b = %d\n", b);
+
+  printf("a + b = %d\n", a + b);
+  printf("a - b = %d\n", a - b);
+  printf("a * b = %d\n", a * b);
+  printf("a / b = %d\n", a / b);
+
+  // 구분선 출력
+  printf("==========\n");
+
+  // 실수 연산 결과 출력
+  printf("c = %.8f\n", c);
+  printf("d = %.8f\n", d);
+  printf("c + d = %.8f\n", c + d);
+  printf("c - d = %.8f\n", c - d);
+  printf("c * d = %.8f\n", c * d);
+  printf("c / d = %.8f\n", c / d);
+
+  return 0;
+}
